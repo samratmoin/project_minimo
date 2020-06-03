@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.pad-70 {
+  padding: 70px 0;
+}
+.text-center{
+    text-align: center;
+}
+/*header section start*/
+
+header {
+  padding: 35px 0 20px;
+}
+.header-wrapper {
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  width: 200px;
+}
+.logo img {
+  max-width: 100%;
+  display: block;
+  padding-bottom: 10px;
+}
+.nav {
+  float: right;
+  width: 750px;
+}
+.nav-menu {
+  list-style-type: none;
+}
+.nav-menu li {
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 84px;
+  padding-top: 10px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #626262;
+}
+
+/*header section end*/
+
+
+/* banner section start here */
+
+.banner img {
+  width: 100%;
+}
+
+/* banner section end here */
+
+
+/* weekend text start here */
+.tag,
+.comment {
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 20px;
+}
+
+.title {
+  color: #626262;
+  font-size: 40px;
+  font-weight: 400;
+}
+.desc {
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.comment {
+  text-decoration: none;
+}
+
+/* weekend text end here */
+
+
+/* blog section start here */
+.post {
+  width: 48%;
+}
+.post img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.row {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+
+.post-left {
+  float: left;
+}
+
+.post-right {
+  float: right;
+}
+
+.post-title {
+  margin: 15px 0;
+  font-size: 40px;
+}
+
+/* blog section end here */
+
+
+/*newsletter section start*/
+
+.newsletter_wrap{
+    background-color: #f0f0f0;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+.form-control{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #626262;
+}
+
+.input-group{
+    position: relative;
+}
+
+.paperplane{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.btn{
+    padding: 20px 30px;
+    border: 1px solid #626262;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+/*newsletter section end*/
+
+/*footer section start*/
+
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+.footer-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.footer-menu li{
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.footer-menu li a{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-wrap{
+    overflow: hidden;
+}
+.footer-left{
+   float: left;
+}
+.footer-right{
+   float: right;
+}
+/*footer section end*/
